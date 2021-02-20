@@ -76,6 +76,24 @@ description: What we will do from day to day
 ### Day 10: Matrix exponential (Monday, February 15)
 
 * [Video](https://mediaspace.illinois.edu/media/t/1_kq40wxb3/)
-* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSfiDAHp38bCSl8jwwx1uE1ReFatkGBJcwp-sLRB7Ewr8yBvxw/viewform?usp=sf_link)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSfiDAHp38bCSl8jwwx1uE1ReFatkGBJcwp-sLRB7Ewr8yBvxw/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day10-survey-results" aria-expanded="false" aria-controls="day10-survey-results">Results</a>)
 * [PrairieLearn HW4](https://www.prairielearn.org/pl/course_instance/128571/assessments)
 * [Reference](/ae353-sp21/reference#the-matrix-exponential-function)
+
+<div class="collapse" id="day10-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQytsHGOojdiRyOQZ0feAofNh6iNnZ4ur-9W9yqoInBAYIUQpy1L8LhWp6cFthM4LisPLlPHwObfVUg/pubchart?oid=1975077170&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+### Day 11: Stability - theory (Friday, February 19)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_nmlr32b7/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSef5evvQ8QejLNKjhudoJOHBzhq1OKBrcf4c03pv3BT2DXeZQ/viewform?usp=sf_link)
+* [PrairieLearn HW5](https://www.prairielearn.org/pl/course_instance/128571/assessments)
+* [Notes (Before Class)](./notes/Day11-Stability.pdf)
+* [Notes (After Class)](./notes/Day11-Stability-InClass.pdf)
+
+### Day 12: Stability - practice (Monday, February 22)
+
+* [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day12_platform)
