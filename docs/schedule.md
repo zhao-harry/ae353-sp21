@@ -56,6 +56,7 @@ description: What we will do from day to day
 * [Survey](https://docs.google.com/forms/d/e/1FAIpQLSewGF7LWstbUOCkd67Q-9WRWv42mIKPagolWSe8_YgukKTr1g/viewform?usp=sf_link) to fill out by noon on Tuesday, February 9
 * [PrairieLearn HW1](https://www.prairielearn.org/pl/course_instance/128571/assessments)
 * [Reference](/ae353-sp21/reference#what-is-a-state-space-model)
+* [Design Project \#1 (CMG)](projects#design-project-1-cmg)
 
 ### Day 08: State space models for second-order systems (Wednesday, February 10)
 
@@ -115,7 +116,7 @@ description: What we will do from day to day
   </div>
 </div>
 
-### Day 13: Project - getting started (Wednesday, Febraury 24)
+### Day 13: Project - getting started (Wednesday, February 24)
 
 * [Video](https://mediaspace.illinois.edu/media/t/1_8ilzpcnc/)
 * [Survey](https://docs.google.com/forms/d/e/1FAIpQLSfnXKbIok1dz6poh0MhR-n0g6McsBS3KgH-cLp5zsaTLpszIg/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day13-survey-results" aria-expanded="false" aria-controls="day13-survey-results">Results</a>)
@@ -174,10 +175,14 @@ description: What we will do from day to day
   </div>
 </div>
 
+## Week 6
+
 ### Day 15: Eigenvalue placement (Monday, March 1)
 
 * [Video](https://mediaspace.illinois.edu/media/t/1_hnt46jl3/)
 * [Survey](https://docs.google.com/forms/d/e/1FAIpQLSde-VVpg-nbl3O23iFCueGW7oC23jvHFhLdHsTgvUPpskc5nQ/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day15-survey-results" aria-expanded="false" aria-controls="day15-survey-results">Results</a>)
+* [Notes (After Class)](./notes/Day15-EigenvaluePlacement-InClass.pdf)
+* [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day15_platform) - in particular, see [this notebook](https://github.com/tbretl/ae353-sp21/blob/main/examples/day15_platform/PlatformDemo-InClass.ipynb) for an example of how to do eigenvalue placement with [scipy.signal.place_poles](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.place_poles.html)
 * [PrairieLearn HW7](https://www.prairielearn.org/pl/course_instance/128571/assessments)
 
 <div class="collapse" id="day15-survey-results">
@@ -186,6 +191,107 @@ description: What we will do from day to day
   </div>
 </div>
 
-### Day 16 (Wednesday, March 3)
+### Day 16: Second design project - getting started (Wednesday, March 3)
 
-* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSfKpKDbcBuGFryTBTW-sYjBH5V7wBmqa3Rk2t3ZSRaflrgDBw/viewform?usp=sf_link)
+* [Video](https://mediaspace.illinois.edu/media/t/1_hw6im1lh/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSfKpKDbcBuGFryTBTW-sYjBH5V7wBmqa3Rk2t3ZSRaflrgDBw/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day16-survey-results" aria-expanded="false" aria-controls="day16-survey-results">Results</a>)
+* [Design Project \#2 (Differential-drive robot)](projects#design-project-2-differential-drive-robot)
+* [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day16_segbot) - in particular, see [this notebook](https://github.com/tbretl/ae353-sp21/blob/main/examples/day16_segbot/SegbotDemo-InClass.ipynb) for a PD controller that keeps the robot upright
+
+<div class="collapse" id="day16-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vShghvhJz1USdz3A3j_h2WClfhU98RRWgrNH_RijyVqIZwzrOvSKRZd-xYioxF6uGeQYnJBAuxPGnTk/pubchart?oid=1908463829&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+### Day 17: Ackermann's method - controllable canonical form (Friday, March 5)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_hmlrvmv1/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLScILM7dwAbDbljh7sGUIvc5jJeCLDpmitX4lEzYo1nAEXPkvA/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day17-survey-results" aria-expanded="false" aria-controls="day17-survey-results">Results</a>)
+* [Notes (Before Class)](./notes/Day17-Acker.pdf)
+* [Notes (After Class)](./notes/Day17-Acker-InClass.pdf)
+* [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day17_ccf/CCF-demos.ipynb)
+* Supplementary videos on the details of Ackermann's method:
+  - [Ackermann's Method, Part 1: Eigenvalues are invariant to coordinate transformation](https://mediaspace.illinois.edu/media/t/1_93vewoav/)
+  - [Ackermann's Method, Part 2: Controllable canonical form](https://mediaspace.illinois.edu/media/t/1_rbf0x31w/)
+  - [Ackermann's Method, Part 3: How to put a system in controllable canonical form](https://mediaspace.illinois.edu/media/t/1_e6r6ljxc/)
+  - [Ackermann's Method, Part 4: Putting it all together](https://mediaspace.illinois.edu/media/t/1_sf1ydkq4/)
+* [PrairieLearn HW8](https://www.prairielearn.org/pl/course_instance/128571/assessments)
+
+<div class="collapse" id="day17-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdUCOy6Rr24D7G1Q6F-YDk7IL9z4M-OkQL0e5QOu-Ho4qD8f_Iw4XngM9dMfb-FmTolER_OFexEoB2/pubchart?oid=1421442809&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+## Week 7
+
+### Day 18: Ackermann's method - implications for controllability (Monday, March 8)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_9d7uv2dc/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSeAPG_Uq04tIH8kWoMyF8HbNS_5A02XG_3y077J3vjRhtQTJw/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day18-survey-results" aria-expanded="false" aria-controls="day18-survey-results">Results</a>)
+* [Notes (Before Class)](./notes/Day18-Controllability.pdf)
+* [Notes (After Class)](./notes/Day18-Controllability-InClass.pdf)
+* [PrairieLearn HW9](https://www.prairielearn.org/pl/course_instance/128571/assessments)
+
+<div class="collapse" id="day18-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTLnBdQKRjI-OMibJg8XAChQqP7w3OofbZeX_vePYiq8QWRUKdKh8sFppPBaBF2UGk3zd-cRfwFnmkd/pubchart?oid=717280055&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+### Day 19: Examples of what it means for a system to be controllable (Wednesday, March 10)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_hnn8rvm2/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSemeHLQnWaiDCpE3CthZqkkeKaRAkVBLO-Jwzdh8IFtXIw1KA/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day19-survey-results" aria-expanded="false" aria-controls="day19-survey-results">Results</a>)
+* [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day19_controllability/) — in particular, see [this notebook](https://github.com/tbretl/ae353-sp21/tree/main/examples/day19_controllability/ExamplesOfControllability.ipynb) for many examples of how to check if a system is controllable
+
+<div class="collapse" id="day19-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRee2HZDmwynXpALVzR0pjh8DcD4j4zcdP9eEf98x_NZwA8qHRjd5lJJZ61cg7KOUsLSFqL3bwGF9HE/pubchart?oid=861225748&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+### Day 20: How to improve your design projects (Friday, March 12)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_dgtyn48w/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSfvfIBxZA--KsSlgtFSGR9lEvWpl4rJqE-zQ6qszH5LaLbrGA/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day20-survey-results" aria-expanded="false" aria-controls="day20-survey-results">Results</a>)
+* [Form to submit a project revision](https://docs.google.com/forms/d/e/1FAIpQLSf_mNfpDIt40F5JforQAA54fyc4Q_WgCG-vmPNQV8atj2oh-w/viewform?usp=sf_link)
+* [Shared document for collaborative in-class discussion about how to do your own work when collaborating with others](https://docs.google.com/document/d/1CYrNM3l2_w0XKv_xb5GccqLOrFv9USyypcXsEJxhmhk/edit?usp=sharing)
+
+<div class="collapse" id="day20-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQZmb31F-uu0SHwtP9RRG5vxKmQDueMO5Ose6LeasO-iRoboNj3EGQ0d0Yn2q6_JeN-4Jxs_-nSbmlz/pubchart?oid=1288860890&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+## Week 8
+
+### Day 21: LQR - scalar example (Monday, March 15)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_gk0vqpgw/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSfmkIEg8khvf6DrF-arOlqBN5zt5lK8pPxp2qjC6SF6wQCi-g/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day21-survey-results" aria-expanded="false" aria-controls="day21-survey-results">Results</a>)
+* [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day21_lqr_cost/)
+* [PrairieLearn HW10](https://www.prairielearn.org/pl/course_instance/128571/assessments)
+
+<div class="collapse" id="day21-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRNsjHB1wfMlBuXrRPDXpdN-jQD1ce9MPWs0t3QmzStiM0p8gxgV7PvVGnmP2Tv12pJHZizF6U4KR76/pubchart?oid=1729381461&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+### Day 22: LQR - effect of initial conditions and of weights (Wednesday, March 17)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_vjy0xwiy/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSfsXOl_Zy6qbGMZLoIp99PKZxCbPX_0n67F13R9nWPR-jRCGQ/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day22-survey-results" aria-expanded="false" aria-controls="day22-survey-results">Results</a>)
+* [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day22_lqr_ics_and_weights/)
+
+<div class="collapse" id="day22-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRnz1g7xp5GpNhfamZ8YFjd69i-XtleTGrzVw1OHH-7fzRkA3_fcF_fnX1i93OfJbMwqX2z-q40JOJM/pubchart?oid=399715586&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+### Day 23 (Friday, March 19)
+
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSfjQMS2XLYGRv3_QrRkfDa-NjdIzew3wyOXe3rvCOKr-jbBtQ/viewform?usp=sf_link)
