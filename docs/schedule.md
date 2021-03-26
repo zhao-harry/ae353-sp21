@@ -292,6 +292,33 @@ description: What we will do from day to day
   </div>
 </div>
 
-### Day 23 (Friday, March 19)
+### Day 23: LQR - general statement and example application (Friday, March 19)
 
-* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSfjQMS2XLYGRv3_QrRkfDa-NjdIzew3wyOXe3rvCOKr-jbBtQ/viewform?usp=sf_link)
+* [Video](https://mediaspace.illinois.edu/media/t/1_7hrz89kz/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSfjQMS2XLYGRv3_QrRkfDa-NjdIzew3wyOXe3rvCOKr-jbBtQ/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day23-survey-results" aria-expanded="false" aria-controls="day23-survey-results">Results</a>)
+
+<div class="collapse" id="day23-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQyc3rZB8rkzTMd38iJ39LrfLnFoQTVuDejNwXBqHYjUhNaB2-elRRh6fjr2aIpok4ihdmO4u8kWb56/pubchart?oid=2116592378&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+## Week 9
+
+### Day 24: How to avoid self-plagiarism, and what to do if we can only measure part of the state (Monday, March 22)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_zl94rvms/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLScBugTuhp0AIyAocD-tSHomw73T0GfVh7HTWIbujTZl3oD8tw/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day24-survey-results" aria-expanded="false" aria-controls="day24-survey-results">Results</a>)
+
+<div class="collapse" id="day24-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQkxilYYf4CgQ2zw7Jdlnlm6CFFP9XXiEwDjPp5j_6j6UaTDgCDsrj5YwGxUe8hg_vWM0XoW6jtto_b/pubchart?oid=2101452987&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+### Day 25: Design project \#3 - getting started (Friday, March 26)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_ch4za3ak/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSc3w3ilZeYIZgo_wxje2mrA0W4gUhn5jpv7qS0g9UAk4PZF4A/viewform?usp=sf_link)
+* [Design Project \#3 (Spacecraft with star tracker)](projects#design-project-3-spacecraft-with-star-tracker)
+* [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day25_spacecraft) - playing around with the third design project
