@@ -319,6 +319,147 @@ description: What we will do from day to day
 ### Day 25: Design project \#3 - getting started (Friday, March 26)
 
 * [Video](https://mediaspace.illinois.edu/media/t/1_ch4za3ak/)
-* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSc3w3ilZeYIZgo_wxje2mrA0W4gUhn5jpv7qS0g9UAk4PZF4A/viewform?usp=sf_link)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSc3w3ilZeYIZgo_wxje2mrA0W4gUhn5jpv7qS0g9UAk4PZF4A/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day25-survey-results" aria-expanded="false" aria-controls="day25-survey-results">Results</a>)
 * [Design Project \#3 (Spacecraft with star tracker)](projects#design-project-3-spacecraft-with-star-tracker)
 * [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day25_spacecraft) - playing around with the third design project
+
+<div class="collapse" id="day25-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSyFeAiCTfwsj5IiT30DIdTT3BZkQA7_u9-HZClTQxg2xaNPBdRY1J5eKzGxdULcb_YkSSuOt6vHLev/pubchart?oid=1813633019&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+## Week 10
+
+### Day 26: Finite difference approximation does not work with noisy sensor measurements (Monday, March 29)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_1af2rp5s/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSc7Cff_Ra5BzdErxWebHx0JRh3t2TiWVojVV_sVLSaCUXRvjA/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day26-survey-results" aria-expanded="false" aria-controls="day26-survey-results">Results</a>)
+* [PrairieLearn HW11](https://www.prairielearn.org/pl/course_instance/128571/assessments)
+
+<div class="collapse" id="day26-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR1mcC-r7jqD5goUzFz9NjqvDP-ZYcQudL2WGngpL9Y8b9iHPJdatGpM-jT6h7QVmLl-6MjtXV8tl7g/pubchart?oid=1190991108&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+### Day 27: How to implement an observer (Wednesday, March 31)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_8gszecaz/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSdSkJu3qCW4mH2O56AvZpZWmYmTVk4hTqctUNkipoAPhJJP8w/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day27-survey-results" aria-expanded="false" aria-controls="day27-survey-results">Results</a>)
+* [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day27_platform_observer)
+* Supplementary videos on the details of observer design and analysis:
+  - [Observers, Part 1: What is an observer?](https://mediaspace.illinois.edu/media/t/1_bwsv03zv/)
+  - [Observers, Part 2: Do observers make sense?](https://mediaspace.illinois.edu/media/t/1_xf9cytda/)
+  - [Observers, Part 3: When does an observer work?](https://mediaspace.illinois.edu/media/t/1_ma7mf2v3/)
+  - [Observers, Part 4: How to choose L for an observer?](https://mediaspace.illinois.edu/media/t/1_6kd1vo4k/)
+  - [Observers, Part 5: Do observers break controllers?](https://mediaspace.illinois.edu/media/t/1_93pesfka/)
+  - [Observers, Part 6: When is observer design possible?](https://mediaspace.illinois.edu/media/t/1_rxgahknr/)
+
+<div class="collapse" id="day27-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQTf5h7U6ymA1tmAefaYWJr8lSjuxvvDgnYKG44cg2FT-rNdWaeYouWdp4qouXRXGmLnb_hhgr-sPFk/pubchart?oid=1204481877&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+### Day 28: Observer design and analysis (Friday, April 2)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_kkmbsupf/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSfQOHr0APdmkWMlO6QQYocLfDmJIRj-1Qd__kYcdx8MPt3OUw/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day28-survey-results" aria-expanded="false" aria-controls="day28-survey-results">Results</a>)
+* [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day28_platform_observer)
+* [Notes (Before Class)](./notes/Day28-ObserverDesign.pdf)
+* [Notes (After Class)](./notes/Day28-ObserverDesign-InClass.pdf)
+
+<div class="collapse" id="day28-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHDuEB-pcLpPJ0iR8MzKT5aJCGWMI4NZ48HK-8IqX9wLaYlnU7VfmhXHMFihTY4eFMSEdm-8pjjMnS/pubchart?oid=2000897737&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+## Week 11
+
+### Day 29: More observer design and analysis - the full system, linearization, optimality (Monday, April 5)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_njl1hroj/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSc7Lh3N8WMPhHPo66rpBlHAAb1iDBEpW5J0qLGwgt_6yjitGQ/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day29-survey-results" aria-expanded="false" aria-controls="day29-survey-results">Results</a>)
+* [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day29_platform_observer)
+* [Notes (Before Class)](./notes/Day29-ObserverDesignPart2.pdf)
+* [Notes (After Class)](./notes/Day29-ObserverDesignPart2-InClass.pdf)
+
+<div class="collapse" id="day29-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRt__ANmcKTlYeDjy0s_c2izCsJYp0AeuYgrpLBTRqqk57ulriiBe8f0Dtk9oPovFM-w3VPyBX1Z5RA/pubchart?oid=1242320455&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+### Day 30: Nonlinear sensor model (Wednesday, April 7)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_x6zw3b0p/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSdSYWcYaa5xf3I9l_pnyI9cgnDwuJTGAqHq11Zr3sxSNYLO5Q/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day30-survey-results" aria-expanded="false" aria-controls="day30-survey-results">Results</a>)
+* [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day30_spacecraft_sensors)
+* [Notes](./notes/Day30-NonlinearSensorModels.pdf)
+
+<div class="collapse" id="day30-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTS-CwhIAlaH_KA5sicP9kE8_HQM_ulS2TZaWGqabXDTHLjivgQNOG-IMc1BsrY3EG6mdF_qOClh8q/pubchart?oid=151039306&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+### Day 31: Optimal observer design (Friday, April 9)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_incinfl8/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLScb0aUtjJ_bZ04R-p8nyl_L9thjETaqBjbtx33S2YsCFDDqmg/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day31-survey-results" aria-expanded="false" aria-controls="day31-survey-results">Results</a>)
+* [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day31_optimal_observers)
+* [Notes](./notes/Day31-OptimalObservers.pdf)
+* Supplementary videos on the details of optimal observer design:
+  - [Optimal Observers, Part 1: What is an optimal observer?](https://mediaspace.illinois.edu/media/t/1_m5ku4a2i/)
+  - [Optimal Observers, Part 2: What problem is solved to produce an optimal observer?](https://mediaspace.illinois.edu/media/t/1_cvfqo0i0/)
+  - [Optimal Observers, Part 3: Do optimal observers make any sense at all?](https://mediaspace.illinois.edu/media/t/1_axx6h2yg/)
+
+<div class="collapse" id="day31-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSizndbH5u8c38_9vXmEHxkGhT0jDbf8nSrVN66g2XmqswTU8i2kqCMwwUKxxwdFKkTRwewmx47LKzZ/pubchart?oid=556613842&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+## Week 12
+
+### Day 32: Optimal observer implementation, aggregate data collection and analysis (Monday, April 12)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_xln10jb2/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSe-Z4BeHGIZ3URcl5S_zarezqhVe8cJv38KMUflGYt4kfuwnw/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day32-survey-results" aria-expanded="false" aria-controls="day32-survey-results">Results</a>)
+* [Example code](https://github.com/tbretl/ae353-sp21/tree/main/examples/day32_optimal_observers)
+
+<div class="collapse" id="day32-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQoHgk81gmHo1UOCTCmXO39fzzxdenkQ7_S94xhEehQWozqLuqM9LARrj5WwCPxTGrqzehZleFnqRfE/pubchart?oid=387987479&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+### Day 33: Project Q+A, introduction to trajectory tracking (Wednesday, April 14)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_mz796hyq/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLSeZuQOlvDq2aLmJYCPerErS_pSr-nMVtDA41fB6_9nILR-AtA/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day33-survey-results" aria-expanded="false" aria-controls="day33-survey-results">Results</a>)
+
+<div class="collapse" id="day33-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdSojFXlF0cdSpUf8KrVXkz2qREuZ9ICpKa-h3itt1RqlCegsmX0_RZejlcAbMMfSY4_aqRlZ-XX2A/pubchart?oid=493168655&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+### Day 34: Preview of fourth design project (Friday, April 16)
+
+* [Video](https://mediaspace.illinois.edu/media/t/1_ydaku88y/)
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLScHlesFWsNqZeuTpVBKLc0R_WKB66zwcGwbEIglQa42cOCDVw/viewform?usp=sf_link) (<a role="button" data-bs-toggle="collapse" href="#day34-survey-results" aria-expanded="false" aria-controls="day34-survey-results">Results</a>)
+
+<div class="collapse" id="day34-survey-results">
+  <div class="card card-body">
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQdE1iAFzqRzHWyA422oq_b3LDeMeB4eEfZerHaxNp3bLdlgOJ5gPw-0NtzoPQUewCLbEII79RKzdPA/pubchart?oid=1488171631&amp;format=interactive"></iframe>
+  </div>
+</div>
+
+## Week 13
+
+### Day 35 (Monday, April 19)
+
+* [Survey](https://docs.google.com/forms/d/e/1FAIpQLScDO_qmLjgg1P9Sd645_NgA_u2EMb2WTiEftyCbP8LEnYQCTA/viewform?usp=sf_link)
