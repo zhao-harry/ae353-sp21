@@ -425,7 +425,8 @@ class Simulator:
             drone['cur_ring'] += 1
         if drone['cur_ring'] == len(self.rings):
             drone['finish_time'] = self.t
-            print(f'FINISHED: drone "{drone["name"]}" at time {drone["finish_time"]:.2f}')
+            if self.display:
+                print(f'FINISHED: drone "{drone["name"]}" at time {drone["finish_time"]:.2f}')
             return True
         else:
             return False
