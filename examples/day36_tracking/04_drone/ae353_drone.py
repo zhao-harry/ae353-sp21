@@ -367,7 +367,6 @@ class Simulator:
                 'tau_y': [],
                 'tau_z': [],
                 'f_z': [],
-                'user_data': {},
             }
             # Finish time
             drone['finish_time'] = None
@@ -426,8 +425,7 @@ class Simulator:
             drone['cur_ring'] += 1
         if drone['cur_ring'] == len(self.rings):
             drone['finish_time'] = self.t
-            if self.display:
-                print(f'FINISHED: drone "{drone["name"]}" at time {drone["finish_time"]:.2f}')
+            print(f'FINISHED: drone "{drone["name"]}" at time {drone["finish_time"]:.2f}')
             return True
         else:
             return False
@@ -547,12 +545,6 @@ class Simulator:
             data['tau_y'].append(tau_y)
             data['tau_z'].append(tau_z)
             data['f_z'].append(f_z)
-            if hasattr(drone['controller'], 'user_data'):
-                for key, val in drone['controller'].user_data.items():
-                    if key in data['user_data'].keys():
-                        data['user_data'][key].append(val)
-                    else:
-                        data['user_data'][key] = [val]
 
         # try to stay real-time
         if self.display:

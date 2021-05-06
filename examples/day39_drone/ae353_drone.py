@@ -319,7 +319,7 @@ class Simulator:
     def disconnect(self):
         pybullet.disconnect()
 
-    def reset(self):
+    def reset(self, rpy_noise=0.01, linvel_noise=0.01, angvel_noise=0.01):
         # Reset time
         self.max_time_steps = 0
         self.time_step = 0
@@ -338,12 +338,12 @@ class Simulator:
         for drone, point in zip(self.drones, p.tolist()):
             # Position and orientation
             pos = np.array([point[0], point[1], 0.3])
-            rpy = 0.01 * self.rng.standard_normal(3)
+            rpy = rpy_noise * self.rng.standard_normal(3)
             ori = pybullet.getQuaternionFromEuler(rpy)
             pybullet.resetBasePositionAndOrientation(drone['id'], pos, ori)
             # Linear and angular velocity
-            linvel = 0.01 * self.rng.standard_normal(3)
-            angvel = 0.01 * self.rng.standard_normal(3)
+            linvel = linvel_noise * self.rng.standard_normal(3)
+            angvel = angvel_noise * self.rng.standard_normal(3)
             pybullet.resetBaseVelocity(drone['id'],
                                 linearVelocity=linvel,
                                 angularVelocity=angvel)
@@ -367,7 +367,6 @@ class Simulator:
                 'tau_y': [],
                 'tau_z': [],
                 'f_z': [],
-                'user_data': {},
             }
             # Finish time
             drone['finish_time'] = None
@@ -426,8 +425,7 @@ class Simulator:
             drone['cur_ring'] += 1
         if drone['cur_ring'] == len(self.rings):
             drone['finish_time'] = self.t
-            if self.display:
-                print(f'FINISHED: drone "{drone["name"]}" at time {drone["finish_time"]:.2f}')
+            print(f'FINISHED: drone "{drone["name"]}" at time {drone["finish_time"]:.2f}')
             return True
         else:
             return False
@@ -547,12 +545,6 @@ class Simulator:
             data['tau_y'].append(tau_y)
             data['tau_z'].append(tau_z)
             data['f_z'].append(f_z)
-            if hasattr(drone['controller'], 'user_data'):
-                for key, val in drone['controller'].user_data.items():
-                    if key in data['user_data'].keys():
-                        data['user_data'][key].append(val)
-                    else:
-                        data['user_data'][key] = [val]
 
         # try to stay real-time
         if self.display:
